@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace RailwayStraightening
 {
+    // suggested to remove
     public class AppState
     {
         private static AppState _appStateInternal;
