@@ -48,8 +48,8 @@ namespace RailwayStraightening
             // stub
             var data = new Data(new[] { 23.0, 101.0, 156.0, 156.0, 156.0, 156.0, 156.0, 156.0, 156.0, 156.0, 92.0 },
                 new[] { 28.0, 97.0, 137.0, 157.0, 157.0, 159.0, 167.0, 141.0, 143.0, 131.0, 87.0 },
-                6,
-                pointsCount);
+                6);
+            data.Calculate();
         }
     }
 }
