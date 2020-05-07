@@ -1,0 +1,19 @@
+{
+  "name": "railway-straightening-ui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Unclemortuary/RailwayStraightening"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "8.2.5",
+    "electron-cgi": "1.0.4"
+  }
+}
