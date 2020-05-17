@@ -5,11 +5,64 @@
         <title>Hello world</title>
       </head>
       <body>
-        <div>
-            <span id='textholder'></span>
-        </div>
-        <script>
-            require('./connection.js')
-        </script>
+        <main>
+          <div id="content">
+            <div id="top controls">
+              <button id="calc btn">Рассчитать</button>
+              <div id="delat container">
+                <span>Погрешность</span>
+                <input id="delta" type="number" min="0" max="10">
+              </div>
+            </div>
+            <div id="etalon">
+              <span id="etalon label">Эталон</span>
+              <div id="e inputs">
+                <input id="e1" type="number" min="0" max="1000"/>
+                <input id="e2" type="number" min="0" max="1000"/>
+                <input id="e3" type="number" min="0" max="1000"/>
+                <input id="e4" type="number" min="0" max="1000"/>
+                <input id="e5" type="number" min="0" max="1000"/>
+                <input id="e6" type="number" min="0" max="1000"/>
+                <input id="e7" type="number" min="0" max="1000"/>
+                <input id="e8" type="number" min="0" max="1000"/>
+                <input id="e9" type="number" min="0" max="1000"/>
+                <input id="e10" type="number" min="0" max="1000"/>
+                <input id="e11" type="number" min="0" max="1000"/>
+              </div>
+            </div>
+            <div id="measured">
+              <span id="measured label">Измеренные</span>
+              <div id="m inputs">
+                <input id="m1" type="number" min="0" max="1000"/>
+                <input id="m2" type="number" min="0" max="1000"/>
+                <input id="m3" type="number" min="0" max="1000"/>
+                <input id="m4" type="number" min="0" max="1000"/>
+                <input id="m5" type="number" min="0" max="1000"/>
+                <input id="m6" type="number" min="0" max="1000"/>
+                <input id="m7" type="number" min="0" max="1000"/>
+                <input id="m8" type="number" min="0" max="1000"/>
+                <input id="m9" type="number" min="0" max="1000"/>
+                <input id="m10" type="number" min="0" max="1000"/>
+                <input id="m11" type="number" min="0" max="1000"/>
+              </div>
+            </div>
+            <div id="calculated">
+              <span id="calculated label">Конечные</span>
+              <div id="c inputs">
+                <input id="с1" type="number" min="0" max="1000"/>
+                <input id="с2" type="number" min="0" max="1000"/>
+                <input id="с3" type="number" min="0" max="1000"/>
+                <input id="с4" type="number" min="0" max="1000"/>
+                <input id="с5" type="number" min="0" max="1000"/>
+                <input id="с6" type="number" min="0" max="1000"/>
+                <input id="с7" type="number" min="0" max="1000"/>
+                <input id="с8" type="number" min="0" max="1000"/>
+                <input id="с9" type="number" min="0" max="1000"/>
+                <input id="с10" type="number" min="0" max="1000"/>
+                <input id="с11" type="number" min="0" max="1000"/>
+              </div>
+            </div>
+          </div>
+        </main>
       </body>
 </html>
