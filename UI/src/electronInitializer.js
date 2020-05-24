@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const path = require('path');
 
 let win;
 function createWin() {
@@ -9,7 +10,7 @@ function createWin() {
             nodeIntegration: true
         } 
     });
-    win.loadFile('index.html');
+    win.loadFile(path.resolve(__dirname, '../dist/index.html'));
 };
 
 app.on('ready', createWin);
