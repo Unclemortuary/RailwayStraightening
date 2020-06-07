@@ -4,13 +4,13 @@ const path = require('path');
 let win;
 function createWin() {
     win = new BrowserWindow({ 
-        width: 950, 
-        height: 250, 
+        width: 950,
+        height: 650,
         webPreferences: { 
             nodeIntegration: true
         } 
     });
-    win.loadFile(path.resolve(__dirname, '../dist/index.html'));
+    win.loadFile(path.resolve(__dirname, '../../dist/index.html'));
 };
 
 app.on('ready', createWin);

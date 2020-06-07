@@ -2,9 +2,10 @@
   "name": "railway-straightening-ui",
   "version": "0.0.0",
   "description": "Electron app, uses .NET Core lib as a server to perform some calculations",
-  "main": "src/electronInitializer.js",
+  "main": "src/initializers/electronInitializer.js",
   "scripts": {
     "build": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
     "start": "electron .",
     "dev": "npm run build && npm run start"
   },
@@ -28,6 +29,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "webpack": "5.0.0-beta.16",
-    "webpack-cli": "3.3.11"
+    "webpack-cli": "3.3.11",
+    "yargs": "15.3.1"
   }
 }

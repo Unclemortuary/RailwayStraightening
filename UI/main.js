@@ -1,3 +1,3 @@
-import mount from './src/app.jsx';
+import mount from './src/components/app.jsx';
 
 mount();

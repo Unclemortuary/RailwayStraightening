@@ -1,5 +1,8 @@
 const path = require('path');
+const argv = require('yargs').argv;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const watch = argv.watch;
 
 module.exports = {
     entry: './main.js',
@@ -7,6 +10,7 @@ module.exports = {
         filename: 'main-bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
+    watch: watch,
     module: {
         rules: [
             {
